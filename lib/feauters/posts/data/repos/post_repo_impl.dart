@@ -11,7 +11,7 @@ import 'package:tddccleanarch/feauters/posts/domain/repos/posts_repository.dart'
 class PostRepositoryImpl implements PostsRepository {
   final RemoteDataSource postRemoteDataSource;
   final LocalDataSource postLocalDataSource;
-  final NetworkInfoImpl networkInfo;
+  final NetworkInfo networkInfo;
 
   PostRepositoryImpl(
       {required this.postRemoteDataSource,
